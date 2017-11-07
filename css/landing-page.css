@@ -15,17 +15,18 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/snorkel11.jpg) no-repeat center center;
   background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 20%;
 }
 
@@ -46,12 +47,12 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-social-buttons i {
-  font-size: 80%;
+  font-size: 75%;
 }
 
 @media(max-width:767px) {
   .intro-message {
-    padding-bottom: 15%;
+    padding-bottom: 20%;
   }
   .intro-message>h1 {
     font-size: 3em;
@@ -75,16 +76,27 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 2px;
 }
+.network-nameban {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+}
 
 .content-section-a {
   padding: 50px 0;
-  background-color: #f8f8f8;
+  background-color: #f2f3f4;
+  border-top: 1px solid #f2f3f4;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-b {
   padding: 50px 0;
+  background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+  
 }
 
 .section-heading {
@@ -93,15 +105,18 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .section-heading-spacer {
   float: left;
-  width: 200px;
-  border-top: 3px solid #e7e7e7;
+  width: 500px;
+  border-top: 3px solid #34495e;
 }
 
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: url(../img/snorkel16.jpg) no-repeat center center;
   background-size: cover;
+  height: 300px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .banner h2 {
@@ -112,17 +127,17 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .banner ul {
   margin-bottom: 0;
-}
+ }
 
 .banner-social-buttons {
   float: right;
-  margin-top: 0;
+  margin-top: 200px;
 }
 
 @media(max-width:1199px) {
   ul.banner-social-buttons {
     float: left;
-    margin-top: 15px;
+    margin-top: 200px;
   }
 }
 
@@ -134,7 +149,7 @@ body, h1, h2, h3, h4, h5, h6 {
   }
   ul.banner-social-buttons>li {
     display: block;
-    margin-bottom: 20px;
+    margin-top: 200px;
     padding: 0;
   }
   ul.banner-social-buttons>li:last-child {
@@ -143,10 +158,105 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 15px 0;
   background-color: #f8f8f8;
 }
 
 p.copyright {
   margin: 15px 0 0;
 }
+.banner-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.topnav {
+border-bottom: 1px solid #e7e7e7;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+.bannerpub {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/snorkel10.jpg) no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.intro-headerpub {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/snorkel2.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.intro-headerres {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/snorkel1.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
+}
+.insection-heading-spacer {
+  float: left;
+  width: 600px;
+  border-top: 3px solid #e7e7e7;
+  margin-bottom: 10px;
+}
+
+.bannerres {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/snorkel7.jpg) no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+ 
