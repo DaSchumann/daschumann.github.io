@@ -106,7 +106,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .section-heading-spacer {
   float: left;
   width: 500px;
-  border-top: 3px solid #34495e;
+  border-top: 3px solid #a9a9a9;
 }
 
 .banner {
@@ -276,4 +276,9 @@ border-bottom: 1px solid #e7e7e7;
   background-size: cover;
   border-bottom: 1px solid #e7e7e7;
 }
- 
+ .insection-heading-spacerin {
+  float: left;
+  width: 300px;
+  border-top: 3px solid #e7e7e7;
+  margin-bottom: 10px;
+}
