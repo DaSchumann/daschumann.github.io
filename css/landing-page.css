@@ -24,10 +24,20 @@ body, h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #e7e7e7;
 }
 
+.intro-headerptm {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/PTM2.png) repeat center;
+  background-size: auto;
+  border-bottom: 1px solid #e7e7e7;
+}
+
 .intro-message {
   position: relative;
-  padding-top: 15%;
-  padding-bottom: 20%;
+  padding-top: 10%;
+  padding-bottom: 15%;
 }
 
 .intro-message>h1 {
