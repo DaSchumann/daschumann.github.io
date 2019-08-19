@@ -115,6 +115,12 @@ body, h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #e7e7e7;
   
 }
+.content-section-d {
+  padding: 50px 0;
+  background-color: #969799;
+  border-top: 3px solid #830019;
+  border-bottom: 3px solid #830019;
+}
 
 .section-heading {
   margin-bottom: 30px;
