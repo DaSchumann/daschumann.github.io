@@ -238,7 +238,7 @@ border-bottom: 1px solid #e7e7e7;
 .bannerpub {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/snorkel10.jpg) no-repeat center center;
+  background: url(../img/snorkel12.jpg) no-repeat center center;
   background-size: cover;
   height: 300px;
   border-top: 1px solid #e7e7e7;
@@ -254,6 +254,17 @@ border-bottom: 1px solid #e7e7e7;
   background-size: cover;
   border-bottom: 1px solid #e7e7e7;
 }
+
+.intro-headerpub1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/snorkel18.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
+}
+
 
 .intro-headerres {
   padding-top: 20px;
