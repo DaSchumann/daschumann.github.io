@@ -24,8 +24,10 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #808080;
 }
 
+.footer-menu-divider {color: #808080;}
 
-
+.list-inline-item {color: #808080;}
+.list-inline {color: #808080;}
 
 .intro-header {
   padding-top: 20px;
